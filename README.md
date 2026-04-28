@@ -8,7 +8,9 @@
 
 [![GitHub followers](https://img.shields.io/github/followers/UditSinghChauhan?label=Follow&style=social)](https://github.com/UditSinghChauhan)
 [![Profile views](https://komarev.com/ghpvc/?username=UditSinghChauhan&label=Profile+Views&color=0e75b6&style=flat)](https://github.com/UditSinghChauhan)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://linkedin.com/in/uditsinghchauhan)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/udit-singh-31382137a/)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=flat&logo=x&logoColor=white)](https://x.com/itsme_relax)
+[![Reddit](https://img.shields.io/badge/Reddit-u%2Fsoftleanearn21-FF4500?style=flat&logo=reddit&logoColor=white)](https://www.reddit.com/user/softleanearn21/)
 [![Gmail](https://img.shields.io/badge/Gmail-uditsinghrajput2112%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:uditsinghrajput2112@gmail.com)
 
 </div>
@@ -186,7 +188,9 @@ I'm a **full-stack engineer** obsessed with building production-grade, scalable 
 | Platform | Link |
 |----------|------|
 | 📧 **Email** | [uditsinghrajput2112@gmail.com](mailto:uditsinghrajput2112@gmail.com) |
-| 💼 **LinkedIn** | [linkedin.com/in/uditsinghchauhan](https://linkedin.com/in/uditsinghchauhan) |
+| 💼 **LinkedIn** | [linkedin.com/in/udit-singh-31382137a](https://www.linkedin.com/in/udit-singh-31382137a/) |
+| 🐦 **Twitter / X** | [x.com/itsme_relax](https://x.com/itsme_relax) |
+| 🟠 **Reddit** | [reddit.com/user/softleanearn21](https://www.reddit.com/user/softleanearn21/) |
 | 🐙 **GitHub** | [github.com/UditSinghChauhan](https://github.com/UditSinghChauhan) |
 
 > 🤝 Open to open-source collaborations, interesting builds, and exciting tech conversations!
