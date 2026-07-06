@@ -144,7 +144,7 @@ I'm a **full-stack engineer** obsessed with building production-grade, scalable 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=UditSinghChauhan&hide_border=true&background=0d1117&stroke=21262d&ring=1a6fff&fire=ff6e40&currStreakLabel=58a6ff&sideLabels=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=UditSinghChauhan&bg_color=0d1117&color=58a6ff&line=1a6fff&point=c9d1d9&area=true&area_color=1a6fff&hide_border=true&radius=8" alt="GitHub Activity Graph" width="100%"/>
 </div>
 
 ---
