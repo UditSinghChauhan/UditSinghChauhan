@@ -136,17 +136,15 @@ I'm a **full-stack engineer** obsessed with building production-grade, scalable 
 ## &nbsp;📊 GitHub Stats
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=UditSinghChauhan&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1a6fff&text_color=c9d1d9&ring_color=1a6fff" alt="GitHub Stats"/>
+  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api?username=UditSinghChauhan&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1a6fff&text_color=c9d1d9&ring_color=1a6fff" alt="GitHub Stats"/>
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=UditSinghChauhan&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
+  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=UditSinghChauhan&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
 </div>
 
 <br/>
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=UditSinghChauhan&hide_border=true&background=0d1117&stroke=21262d&ring=1a6fff&fire=ff6e40&currStreakLabel=58a6ff&sideLabels=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
-  </a>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=UditSinghChauhan&hide_border=true&background=0d1117&stroke=21262d&ring=1a6fff&fire=ff6e40&currStreakLabel=58a6ff&sideLabels=58a6ff&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
 </div>
 
 ---
