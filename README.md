@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=650&lines=%F0%9F%94%A7+Shipping+production-grade+systems+from+scratch;%F0%9F%9A%80+MERN+%7C+WebRTC+%7C+Socket.IO+%7C+AI+Tooling;%F0%9F%A4%9D+Open+Source+Enthusiast+%26+Tech+Collaborator;%E2%9A%A1+I+build+things.+Break+them.+Rebuild+better." alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&lines=%F0%9F%94%A7+Shipping+production-grade+systems+from+scratch;%F0%9F%9A%80+MERN+%7C+WebRTC+%7C+WebSocket+%7C+tRPC+%7C+AI+Tooling;%F0%9F%A4%9D+Open+Source+Enthusiast+%26+Tech+Collaborator;%E2%9A%A1+I+build+things.+Break+them.+Rebuild+better." alt="Typing SVG" /></a>
 
 <br/>
 
@@ -32,7 +32,7 @@ I'm a **full-stack engineer** obsessed with building production-grade, scalable 
 🌱  Exploring:   Distributed Systems • AI-Augmented Dev Workflows • WebRTC Internals
 ⚡  Fun Fact:    I built a working Git-like VCS from scratch — SHA-256 commits, branching, diffing, the works
 🤝  Open To:     Open-source collaboration • Interesting builds • Tech conversations
-💬  Ask Me:      Node.js, React, Socket.IO, WebRTC, MongoDB, System Design, Auth
+💬  Ask Me:      Node.js, React, Socket.IO, WebSocket, tRPC, WebRTC, MongoDB, System Design, Auth
 ```
 
 ---
@@ -51,6 +51,8 @@ I'm a **full-stack engineer** obsessed with building production-grade, scalable 
 <img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="Backend"/>
 &nbsp;&nbsp;
 <img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white" height="48" alt="Socket.IO"/>
+<img src="https://img.shields.io/badge/WebSocket-4353FF?style=for-the-badge&logo=websocket&logoColor=white" height="48" alt="WebSocket"/>
+<img src="https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white" height="48" alt="tRPC"/>
 <img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" height="48" alt="WebRTC"/>
 
 #### Databases & Cloud
