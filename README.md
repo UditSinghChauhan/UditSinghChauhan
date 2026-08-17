@@ -1,94 +1,140 @@
-## Udit Singh
+<div align="center">
 
-**Backend · Systems · Software Engineer** — B.Tech Information Technology, ABES Engineering College (2027). Delhi NCR, India.
+# Udit Singh
 
-I build the layer underneath the application: a version control engine, a session-security model,
-an integration platform. Most of what I know came from writing the thing rather than importing it.
+### Backend · Systems · Software Engineer
 
----
+B.Tech Information Technology · ABES Engineering College (2027) · Delhi NCR
 
-### What I've built
+I build backend systems, developer tools and real-time applications —<br>
+with a focus on security, correctness and implementations I understand from first principles.
 
-**[Nexus](https://github.com/UditSinghChauhan/Nexus-git)** · *a Git-style version control system, written from scratch in Node.js with no git binary and no libgit2*
+<br>
 
-SHA-256 content-addressed commits over a two-parent DAG, BFS nearest-common-ancestor resolution for
-three-way merge, and an LCS dynamic-programming diff engine. Exposed through a 7-command yargs CLI,
-a JWT-authenticated REST API, and a React dashboard that updates live — commit from the terminal and
-the browser reflects it, because the engine emits events at the point state changes.
+[LinkedIn](https://www.linkedin.com/in/udit-singh-31382137a/) &nbsp;·&nbsp;
+[GitHub](https://github.com/UditSinghChauhan) &nbsp;·&nbsp;
+uditsinghchauhan720@gmail.com
 
-`Node.js` `Express` `MongoDB` `Socket.IO` `React` · *15 backend tests passing*
-
----
-
-**[CareerRadar](https://github.com/UditSinghChauhan/CareerRadar)** · *job and internship aggregation platform — TypeScript monorepo, contract-first API, 12 provider integrations*
-
-An OpenAPI 3.1 spec is the single source of truth; both the Zod validators and the React Query hooks
-are generated from it, so client and server contracts cannot drift. PostgreSQL via Drizzle over
-10 indexed tables. A background scheduler fans out to 12 job-board integrations behind a plugin
-registry, with exponential backoff and full jitter, retry classification that distinguishes transient
-from permanent failures, and deduplication on a composite external key.
-
-`TypeScript` `Express 5` `PostgreSQL` `Drizzle ORM` `pnpm monorepo` `OpenAPI 3.1` `Clerk` · *49 tests across 9 files — no database required to run them*
+</div>
 
 ---
 
-**[Bridge](https://github.com/UditSinghChauhan/videoconferencing_app)** · *real-time video meeting platform — WebRTC signaling, Socket.IO, and a hand-built session-security model*
+## Projects
 
-15-minute access tokens and rotating refresh tokens with separate signing secrets, refresh and CSRF
-tokens stored only as SHA-256 hashes, per-session CSRF verification, and JWT verified in the
-Socket.IO handshake — checked against live server-side session state, so a token from a logged-out
-session cannot open a connection. WebRTC media stays peer-to-peer; the server only relays signaling.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-`Node.js` `Express` `Socket.IO` `WebRTC` `MongoDB` `React` · *48 backend tests — no database required*
+#### [Nexus](https://github.com/UditSinghChauhan/Nexus-git) — Git-style VCS, built from scratch
+
+No git binary. No libgit2.
+
+- SHA-256 content-addressed commit storage
+- Two-parent DAG · BFS merge-base · three-way merge
+- LCS dynamic-programming diff engine
+- 7-command CLI + JWT REST API + live React dashboard
+- Socket.IO events emitted from inside the engine
+
+`Node.js` `Express` `MongoDB` `Socket.IO` `React` · **18 tests**
+
+</td>
+<td width="50%" valign="top">
+
+#### [CareerRadar](https://github.com/UditSinghChauhan/CareerRadar) — TypeScript monorepo, 12 integrations
+
+Contract-first: OpenAPI 3.1 generates Zod validators + React Query hooks.
+
+- 9-package pnpm workspace · Express 5 · PostgreSQL/Drizzle
+- Background scheduler fanning out to 12 job-board providers
+- Full-jitter retry classification · composite-key deduplication
+- 10 indexed tables · 7 enums
+
+`TypeScript` `Express 5` `PostgreSQL` `Drizzle` `pnpm` · **49 tests, 9 files**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### [Bridge](https://github.com/UditSinghChauhan/videoconferencing_app) — WebRTC platform, hand-built session security
+
+- Rotating refresh tokens stored as SHA-256 hashes
+- JWT verified at Socket.IO handshake against live session state
+- Per-session CSRF · separate access/refresh signing secrets
+- WebRTC peer-to-peer media · backend-enforced host/participant roles
+
+`Node.js` `WebRTC` `Socket.IO` `Express` `MongoDB` `React` · **48 backend tests**
+
+</td>
+<td width="50%" valign="top">
+
+#### [Syllora](https://github.com/UditSinghChauhan/syllora-edtech) — Full-stack EdTech marketplace
+
+- 36 REST endpoints · 9 Mongoose models
+- Three-role RBAC (student / instructor / admin)
+- OTP email verification · Razorpay + HMAC-SHA256
+- Cloudinary uploads · NoSQL-injection sanitization
+
+`Node.js` `Express` `MongoDB` `React` `Redux` · **22 tests · CI green**
+
+</td>
+</tr>
+</table>
 
 ---
 
-**[Syllora](https://github.com/UditSinghChauhan/syllora-edtech)** · *EdTech course marketplace — 36 REST endpoints, three-role RBAC, OTP verification, Razorpay payments*
+## Security
 
-36 REST endpoints over 9 Mongoose models covering student, instructor and admin workflows. OTP email
-verification, course CRUD with a section/subsection hierarchy, Cloudinary media uploads, and Razorpay
-payments with HMAC-SHA256 signature verification, behind JWT/bcrypt auth and NoSQL-injection
-sanitization.
+Ran a cross-repository audit and fixed **7 classes of security defects** — credential exposure in public API responses, unauthenticated destructive routes, missing object-level authorization, unsafe token handling. Three fixes include dedicated regression suites.
 
-`Node.js` `Express` `MongoDB` `React` `Redux` · *22 frontend tests, running in GitHub Actions CI*
+<details>
+<summary>What I found →</summary>
+<br>
 
----
-
-### Something I found in my own code
-
-I ran a security audit across all four repositories and found seven classes of defect — a bcrypt
-password hash reachable from a public unauthenticated endpoint, a JWT accepted from the request body,
-privileged scheduler routes anyone could trigger, an entire route module with neither authentication
-nor ownership checks.
-
-All seven are fixed, three with dedicated regression suites. The part worth mentioning: three of them
-were found by taking a defect discovered in one repository and grepping the others for the same
-pattern — which is how I discovered my first pass had missed two.
-
----
-
-### Tools
-
-| Area | Technologies |
+| Defect class | Where |
 |---|---|
-| **Languages** | TypeScript · JavaScript · SQL · C++ · Java · Python |
-| **Backend** | Node.js · Express · REST · OpenAPI 3.1 · middleware architecture · rate limiting |
-| **Data** | PostgreSQL · MongoDB · Drizzle ORM · Mongoose · schema design · indexing |
-| **Real-time** | WebRTC · Socket.IO · WebSockets · event-driven services · background schedulers |
-| **Security** | JWT · refresh-token rotation · CSRF · bcrypt · RBAC · Zod · Clerk |
-| **Testing** | Vitest · Jest · Playwright · Node built-in test runner |
-| **Tooling** | Git · Linux · GitHub Actions · pnpm workspaces · Render · Vercel |
+| bcrypt hash exposed via unauthenticated public endpoint | Nexus · Syllora |
+| JWT accepted from request body | Syllora |
+| Unauthenticated scheduler-trigger routes (outbound amplification vector) | CareerRadar |
+| Entire route module — no authentication, no ownership checks | Nexus |
+| Credential fields returned to authenticated callers | Syllora |
+| Unauthenticated sync routes firing external requests | CareerRadar |
+| Refresh + CSRF tokens stored as plaintext | Bridge |
+
+Three defects were found by treating one discovery as a *class* and grepping every other codebase for the same pattern.
+
+</details>
 
 ---
 
-### Now
+## Stack
 
-Next: building **DevAgent** — an episodic-memory-augmented multi-agent system for autonomous code
-generation and debugging. Not started yet.
+**Backend** &nbsp; Node.js · Express · REST · OpenAPI 3.1
 
-Also working through DSA (280+ across LeetCode, GeeksforGeeks and HackerRank) and starting to
-contribute to open source.
+**Systems** &nbsp; SHA-256 content addressing · commit DAGs · BFS traversal · LCS diff
+
+**Data** &nbsp; PostgreSQL · MongoDB · Drizzle ORM · Mongoose
+
+**Real-time** &nbsp; WebRTC · Socket.IO · WebSockets · background schedulers
+
+**Security** &nbsp; JWT · refresh-token rotation · CSRF · bcrypt · RBAC · Zod
+
+**Testing** &nbsp; Vitest · Jest · Playwright · Node test runner · **137 tests across 4 projects**
+
+**Tooling** &nbsp; Git · Linux · GitHub Actions · pnpm · Render · Vercel
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/udit-singh-31382137a/) · [GitHub](https://github.com/UditSinghChauhan) · uditsinghchauhan720@gmail.com
+## Now
+
+**Next: DevAgent** — an episodic-memory-augmented multi-agent system for autonomous code generation and debugging. **Not started.** M0 begins next.
+
+280+ DSA problems across LeetCode, GeeksforGeeks and HackerRank.
+
+---
+
+<div align="center">
+
+[LinkedIn](https://www.linkedin.com/in/udit-singh-31382137a/) &nbsp;·&nbsp; [GitHub](https://github.com/UditSinghChauhan) &nbsp;·&nbsp; uditsinghchauhan720@gmail.com
+
+</div>
