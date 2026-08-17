@@ -125,14 +125,6 @@ Three defects were found by treating one discovery as a *class* and grepping eve
 
 ---
 
-## Now
-
-**Next: DevAgent** — an episodic-memory-augmented multi-agent system for autonomous code generation and debugging. **Not started.** M0 begins next.
-
-280+ DSA problems across LeetCode, GeeksforGeeks and HackerRank.
-
----
-
 <div align="center">
 
 [LinkedIn](https://www.linkedin.com/in/udit-singh-31382137a/) &nbsp;·&nbsp; [GitHub](https://github.com/UditSinghChauhan) &nbsp;·&nbsp; uditsinghchauhan720@gmail.com
