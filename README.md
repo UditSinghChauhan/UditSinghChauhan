@@ -1,211 +1,94 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a6fff&height=220&section=header&text=Udit%20Singh%20Chauhan&fontSize=42&fontColor=58a6ff&animation=fadeIn&fontAlignY=32&desc=Full-Stack%20Engineer%20%E2%80%A2%20Open%20Source%20Builder%20%E2%80%A2%20Systems%20Architect&descSize=16&descColor=8b949e&descAlignY=52"/>
+## Udit Singh
 
-<div align="center">
+**Backend · Systems · Software Engineer** — B.Tech Information Technology, ABES Engineering College (2027). Delhi NCR, India.
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=700&lines=%F0%9F%94%A7+Shipping+production-grade+systems+from+scratch;%F0%9F%9A%80+MERN+%7C+WebRTC+%7C+WebSocket+%7C+tRPC+%7C+AI+Tooling;%F0%9F%A4%9D+Open+Source+Enthusiast+%26+Tech+Collaborator;%E2%9A%A1+I+build+things.+Break+them.+Rebuild+better." alt="Typing SVG" /></a>
-
-<br/>
-
-<a href="https://github.com/UditSinghChauhan"><img src="https://komarev.com/ghpvc/?username=UditSinghChauhan&label=Profile%20Views&color=1a6fff&style=for-the-badge" alt="Profile Views"/></a>&nbsp;
-<a href="https://github.com/UditSinghChauhan?tab=followers"><img src="https://img.shields.io/github/followers/UditSinghChauhan?label=Followers&style=for-the-badge&color=1a6fff&labelColor=0d1117" alt="Followers"/></a>&nbsp;
-<a href="https://github.com/UditSinghChauhan?tab=repositories"><img src="https://img.shields.io/github/stars/UditSinghChauhan?label=Total%20Stars&style=for-the-badge&color=1a6fff&labelColor=0d1117" alt="Stars"/></a>
-
-<br/><br/>
-
-<a href="https://www.linkedin.com/in/udit-singh-31382137a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>&nbsp;
-<a href="https://x.com/itsme_relax"><img src="https://img.shields.io/badge/X_(Twitter)-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"/></a>&nbsp;
-<a href="https://www.reddit.com/user/softleanearn21/"><img src="https://img.shields.io/badge/Reddit-FF4500?style=for-the-badge&logo=reddit&logoColor=white" alt="Reddit"/></a>&nbsp;
-<a href="mailto:uditsinghrajput2112@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
-
-</div>
-
-<br/>
-
-## &nbsp;🧠 About Me
-
-> *"I don't just write code — I engineer systems that solve real problems at scale."*
-
-I'm a **full-stack engineer** obsessed with building production-grade, scalable applications — from version control systems built entirely from first principles, to real-time communication platforms with WebRTC and Socket.IO. My GitHub is where ideas become systems.
-
-```yaml
-🔭  Currently:   Building production-ready SaaS platforms & developer tooling
-🌱  Exploring:   Distributed Systems • AI-Augmented Dev Workflows • WebRTC Internals
-⚡  Fun Fact:    I built a working Git-like VCS from scratch — SHA-256 commits, branching, diffing, the works
-🤝  Open To:     Open-source collaboration • Interesting builds • Tech conversations
-💬  Ask Me:      Node.js, React, Socket.IO, WebSocket, tRPC, WebRTC, MongoDB, System Design, Auth
-```
+I build the layer underneath the application: a version control engine, a session-security model,
+an integration platform. Most of what I know came from writing the thing rather than importing it.
 
 ---
 
-## &nbsp;🛠️ Tech Stack
+### What I've built
 
-<div align="center">
+**[Nexus](https://github.com/UditSinghChauhan/Nexus-git)** · *a Git-style version control system, written from scratch in Node.js with no git binary and no libgit2*
 
-#### Languages
-<img src="https://skillicons.dev/icons?i=js,ts,cpp,java&theme=dark" alt="Languages"/>
+SHA-256 content-addressed commits over a two-parent DAG, BFS nearest-common-ancestor resolution for
+three-way merge, and an LCS dynamic-programming diff engine. Exposed through a 7-command yargs CLI,
+a JWT-authenticated REST API, and a React dashboard that updates live — commit from the terminal and
+the browser reflects it, because the engine emits events at the point state changes.
 
-#### Frontend
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind&theme=dark" alt="Frontend"/>
-
-#### Backend & Real-Time
-<img src="https://skillicons.dev/icons?i=nodejs,express&theme=dark" alt="Backend"/>
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Socket.IO-010101?style=for-the-badge&logo=socketdotio&logoColor=white" height="48" alt="Socket.IO"/>
-<img src="https://img.shields.io/badge/WebSocket-4353FF?style=for-the-badge&logo=websocket&logoColor=white" height="48" alt="WebSocket"/>
-<img src="https://img.shields.io/badge/tRPC-2596BE?style=for-the-badge&logo=trpc&logoColor=white" height="48" alt="tRPC"/>
-<img src="https://img.shields.io/badge/WebRTC-333333?style=for-the-badge&logo=webrtc&logoColor=white" height="48" alt="WebRTC"/>
-
-#### Databases & Cloud
-<img src="https://skillicons.dev/icons?i=mongodb,redis,aws,cloudflare&theme=dark" alt="Databases & Cloud"/>
-
-#### DevOps & Tooling
-<img src="https://skillicons.dev/icons?i=docker,githubactions,git,postman&theme=dark" alt="DevOps"/>
-
-</div>
+`Node.js` `Express` `MongoDB` `Socket.IO` `React` · *15 backend tests passing*
 
 ---
 
-## &nbsp;🚀 Featured Projects
+**[CareerRadar](https://github.com/UditSinghChauhan/CareerRadar)** · *job and internship aggregation platform — TypeScript monorepo, contract-first API, 12 provider integrations*
 
-<table>
-<tr>
-<td width="50%" valign="top">
+An OpenAPI 3.1 spec is the single source of truth; both the Zod validators and the React Query hooks
+are generated from it, so client and server contracts cannot drift. PostgreSQL via Drizzle over
+10 indexed tables. A background scheduler fans out to 12 job-board integrations behind a plugin
+registry, with exponential backoff and full jitter, retry classification that distinguishes transient
+from permanent failures, and deduplication on a composite external key.
 
-### 🔧&nbsp; [Nexus — Custom VCS](https://github.com/UditSinghChauhan/Nexus-git)
-> *A Git-style version control system built from scratch*
-
-**Highlights:**
-- 📦 SHA-256 content-addressed object storage
-- 🔀 LCS-based diff engine + 3-way merge algorithm
-- 📡 Real-time commit graph streaming via **Socket.IO**
-- 🧠 AI-powered commit message generation (OpenAI/Gemini)
-- 🖼️ Interactive commit visualization with **ReactFlow**
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🎥&nbsp; [Bridge — Video Conferencing](https://github.com/UditSinghChauhan/videoconferencing_app)
-> *Production-grade WebRTC conferencing platform*
-
-**Highlights:**
-- 📹 WebRTC peer mesh with **perfect negotiation** patterns
-- 🔐 JWT + refresh token rotation, CSRF-safe HTTP-only cookies
-- 🛡️ Backend-enforced **RBAC** with role-scoped API guards
-- 🤖 Auto-generated meeting summaries via AI
-- 🧪 **9+ Playwright E2E test flows**
-
-<img src="https://img.shields.io/badge/WebRTC-333333?style=flat-square&logo=webrtc&logoColor=white"/> <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white"/> <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🎓&nbsp; [Syllora — EdTech SaaS](https://github.com/UditSinghChauhan/syllora-edtech)
-> *Full-stack learning management platform*
-
-**Highlights:**
-- 💳 Razorpay payment gateway with **HMAC-SHA256** webhook verification
-- 📧 OTP auth with Nodemailer + bcrypt-hashed storage
-- 🏗️ 18+ REST APIs with Joi validation & structured error handling
-- ☁️ Cloudinary media pipeline for course content
-- 🚦 CI/CD pipeline via **GitHub Actions**
-
-<img src="https://img.shields.io/badge/MERN-000000?style=flat-square&logo=mongodb&logoColor=white"/> <img src="https://img.shields.io/badge/Razorpay-0C2451?style=flat-square&logo=razorpay&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=flat-square&logo=cloudinary&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 📈&nbsp; [Stock Trading Platform](https://github.com/UditSinghChauhan/Stock-Trading-Platform)
-> *Real-time market simulation engine*
-
-**Highlights:**
-- 📊 Live price feed simulation with real-time data streams
-- 🔄 Order matching engine with buy/sell execution logic
-- 📉 Portfolio tracking with P&L calculation
-- 🔒 Secure user auth with session management
-
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/> <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black"/> <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white"/> <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-
-</td>
-</tr>
-</table>
+`TypeScript` `Express 5` `PostgreSQL` `Drizzle ORM` `pnpm monorepo` `OpenAPI 3.1` `Clerk` · *49 tests across 9 files — no database required to run them*
 
 ---
 
-## &nbsp;📊 GitHub Stats
+**[Bridge](https://github.com/UditSinghChauhan/videoconferencing_app)** · *real-time video meeting platform — WebRTC signaling, Socket.IO, and a hand-built session-security model*
 
-<div align="center">
-  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api?username=UditSinghChauhan&show_icons=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1a6fff&text_color=c9d1d9&ring_color=1a6fff" alt="GitHub Stats"/>
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=UditSinghChauhan&layout=compact&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8" alt="Top Languages"/>
-</div>
+15-minute access tokens and rotating refresh tokens with separate signing secrets, refresh and CSRF
+tokens stored only as SHA-256 hashes, per-session CSRF verification, and JWT verified in the
+Socket.IO handshake — checked against live server-side session state, so a token from a logged-out
+session cannot open a connection. WebRTC media stays peer-to-peer; the server only relays signaling.
 
-<br/>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=UditSinghChauhan&bg_color=0d1117&color=58a6ff&line=1a6fff&point=c9d1d9&area=true&area_color=1a6fff&hide_border=true&radius=8" alt="GitHub Activity Graph" width="100%"/>
-</div>
+`Node.js` `Express` `Socket.IO` `WebRTC` `MongoDB` `React` · *48 backend tests — no database required*
 
 ---
 
-## &nbsp;🐍 Contribution Snake
+**[Syllora](https://github.com/UditSinghChauhan/syllora-edtech)** · *EdTech course marketplace — 36 REST endpoints, three-role RBAC, OTP verification, Razorpay payments*
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/UditSinghChauhan/UditSinghChauhan/output/github-snake-dark.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/UditSinghChauhan/UditSinghChauhan/output/github-snake.svg"/>
-    <img alt="Snake animation" src="https://raw.githubusercontent.com/UditSinghChauhan/UditSinghChauhan/output/github-snake-dark.svg" width="100%"/>
-  </picture>
-</div>
+36 REST endpoints over 9 Mongoose models covering student, instructor and admin workflows. OTP email
+verification, course CRUD with a section/subsection hierarchy, Cloudinary media uploads, and Razorpay
+payments with HMAC-SHA256 signature verification, behind JWT/bcrypt auth and NoSQL-injection
+sanitization.
 
----
-
-## &nbsp;🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=UditSinghChauhan&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=10" alt="GitHub Trophies"/>
-</div>
+`Node.js` `Express` `MongoDB` `React` `Redux` · *22 frontend tests, running in GitHub Actions CI*
 
 ---
 
-## &nbsp;💡 Engineering Philosophy
+### Something I found in my own code
 
-```
-🔍  I read source code the way others read books
-🛠️  First principles > frameworks
-🌐  Real-time systems are the most honest test of architecture
-🤝  Open source is how I give back to the ecosystem that made me
-```
+I ran a security audit across all four repositories and found seven classes of defect — a bcrypt
+password hash reachable from a public unauthenticated endpoint, a JWT accepted from the request body,
+privileged scheduler routes anyone could trigger, an entire route module with neither authentication
+nor ownership checks.
 
----
-
-## &nbsp;📫 Let's Connect
-
-<div align="center">
-
-| Platform | Link |
-|:--------:|:----:|
-| 📧 **Email** | [uditsinghrajput2112@gmail.com](mailto:uditsinghrajput2112@gmail.com) |
-| 💼 **LinkedIn** | [linkedin.com/in/udit-singh-31382137a](https://www.linkedin.com/in/udit-singh-31382137a/) |
-| 🐦 **Twitter / X** | [x.com/itsme_relax](https://x.com/itsme_relax) |
-| 🟠 **Reddit** | [reddit.com/user/softleanearn21](https://www.reddit.com/user/softleanearn21/) |
-| 🐙 **GitHub** | [github.com/UditSinghChauhan](https://github.com/UditSinghChauhan) |
-
-> 🤝 Open to open-source collaborations, interesting builds, and exciting tech conversations!
-
-</div>
+All seven are fixed, three with dedicated regression suites. The part worth mentioning: three of them
+were found by taking a defect discovered in one repository and grepping the others for the same
+pattern — which is how I discovered my first pass had missed two.
 
 ---
 
-<div align="center">
+### Tools
 
-*"The best engineers aren't those who know all the answers — they're the ones who know which questions to ask."*
+| Area | Technologies |
+|---|---|
+| **Languages** | TypeScript · JavaScript · SQL · C++ · Java · Python |
+| **Backend** | Node.js · Express · REST · OpenAPI 3.1 · middleware architecture · rate limiting |
+| **Data** | PostgreSQL · MongoDB · Drizzle ORM · Mongoose · schema design · indexing |
+| **Real-time** | WebRTC · Socket.IO · WebSockets · event-driven services · background schedulers |
+| **Security** | JWT · refresh-token rotation · CSRF · bcrypt · RBAC · Zod · Clerk |
+| **Testing** | Vitest · Jest · Playwright · Node built-in test runner |
+| **Tooling** | Git · Linux · GitHub Actions · pnpm workspaces · Render · Vercel |
 
-⭐ **If you find any of my work useful, consider leaving a star — it keeps me going!** ⭐
+---
 
-</div>
+### Now
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a6fff&height=120&section=footer"/>
+Next: building **DevAgent** — an episodic-memory-augmented multi-agent system for autonomous code
+generation and debugging. Not started yet.
+
+Also working through DSA (280+ across LeetCode, GeeksforGeeks and HackerRank) and starting to
+contribute to open source.
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/udit-singh-31382137a/) · [GitHub](https://github.com/UditSinghChauhan) · uditsinghchauhan720@gmail.com
